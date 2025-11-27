@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Password Required</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">        
+</head>
+
+<body>
+    <p>Enter password</p>
+
+    {% if error %}
+        <p style = "color: red;">ACCESS DENIED</p>
+    {% else %}
+        <form action="/check_password" method="POST">
+            <input type="password" name="password">
+            <button type="submit">Submit</button>
+        </form>
+    {% endif %}
+
+</body>
+</html>

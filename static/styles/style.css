@@ -1,0 +1,32 @@
+html {
+  font-size: 16px;
+  font-family: "Cinzel";
+  background-color: black;
+}
+
+h1
+{
+  font-size: 54px;
+  color: white;
+  text-align: center;
+  line-height: 500px;
+}
+
+p
+{
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  line-height: 200px;
+}
+
+form
+{
+  text-align: center;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: black;
+}
