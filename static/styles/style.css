@@ -4,6 +4,55 @@ html {
   background-color: black;
 }
 
+.main{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.projects-box{
+  width: 300px;
+  background-color: #4200008e;
+  padding: 0 20px 20px 20px;
+  border: 5px solid #000000;
+  align-content: right;
+  float: right;
+}
+
+.poobledooble {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #4200008e;
+}
+
+.poobledooble .header_1 {
+  background-color: #4200008e;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.poobledooble .sidecontent {
+  font-size: 16px;
+  background-color: #4200008e;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+a
+{
+  font-size: 16px;
+}
+
+
+
+/*
 h1
 {
   font-size: 54px;
@@ -11,6 +60,7 @@ h1
   text-align: center;
   line-height: 500px;
 }
+*/
 
 p
 {
