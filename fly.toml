@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for my-site-with-redis on 2025-11-27T03:23:34Z
+# fly.toml app configuration file generated for my-site-with-redis on 2026-05-30T22:30:32Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = 'my-site-with-redis'
-primary_region = 'dfw'
+primary_region = 'lax'
 
 [build]
 
