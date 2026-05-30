@@ -23,5 +23,5 @@ primary_region = 'lax'
   memory_mb = 1024
 
   [[mounts]]
-  source = "vol_rn8pd5wq23edjzer"
-  destination = "e7847944f00d48"
+  destination = "/data"
+  source = "data"
